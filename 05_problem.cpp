@@ -62,13 +62,6 @@ cout << "Enter fraction: ";
     denominator = denominator / gcd;
 }
 
-fraction fadd(fraction f2) {
-        fraction f3;
-        f3.numerator = numerator * f2.denominator + denominator * f2.numerator;
-        f3.denominator = denominator * f2.denominator;
-        f3.lowterms();
-        return f3;
-    }
 
     // Display function
 void display(){
